@@ -1,0 +1,99 @@
+ /*apply css properties to body tag*/
+  
+ .demo{
+     height: 500px;
+     width: 500px;
+     justify-content:center;
+     background-color: rgba(194, 185, 185, 0.281);
+
+
+ }
+ .demo1{
+    height: 353px;
+    width: 312px;
+    position: sticky;
+    margin-top: 32px;
+    margin-left: 90px;
+    justify-content: center;
+    background-color: whitesmoke
+}
+.demo21{
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    margin-top: 32px;
+    margin-left: 90px;
+    justify-content: center;
+    background-color: red;
+}
+.demo22{
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    margin-top: -100px;
+    margin-left: 200px;
+    justify-content: center;
+    background-color: green
+}
+.demo23{
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    margin-top: -102px;
+    margin-left: 311px;
+    justify-content: center;
+    background-color: yellow;
+}
+
+
+
+
+ body {
+    position: absolute;
+    left: 0%;
+    text-align: center;
+}
+
+/*apply css properties to container class*/
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 90px;
+    text-align: center;
+}
+
+/*apply css properties to button tag*/
+
+button {
+    width: 90px;
+    height: 60px;
+    font-size: 30px;
+    background-color: white;
+    color: honeydew;
+}
+
+/*apply hover effect to button tag*/
+
+button:hover {
+    background-color: greenyellow;
+    color: grey;
+}
+
+/*apply css properties to h2 tag*/
+
+h2 {
+    color: black;
+    margin: 0 50px;
+    font-size: 45px;
+}
+/*apply css properties to h1 tag*/
+
+h1 {
+    font-size: 35px;
+    color: green;
+    text-align: center;
+    padding-left: 10%;
+}
